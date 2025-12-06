@@ -20,5 +20,9 @@
     "submit": "Soumettre",
     "loading": "Chargement...",
     "retry": "Essayer à nouveau"
+  },
+  "messages": {
+    "welcome": "Bienvenue à nouveau, {{name}} !",
+    "itemCount": "Vous avez {count} articles dans votre panier."
   }
 }

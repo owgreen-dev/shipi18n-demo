@@ -20,5 +20,9 @@
     "submit": "Einreichen",
     "loading": "Laden...",
     "retry": "Versuchen Sie es erneut"
+  },
+  "messages": {
+    "welcome": "Willkommen zurück, {{name}}!",
+    "itemCount": "Sie haben {count} Artikel in Ihrem Warenkorb."
   }
 }

@@ -20,5 +20,9 @@
     "submit": "Entregar",
     "loading": "Cargando...",
     "retry": "Intentar otra vez"
+  },
+  "messages": {
+    "welcome": "¡Bienvenido de nuevo, {{name}}!",
+    "itemCount": "Tienes {count} artículos en tu carrito."
   }
 }
