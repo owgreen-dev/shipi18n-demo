@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shipi18n Demo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+    h1 { margin-bottom: 1rem; }
+    .lang-select { margin-bottom: 2rem; }
+    .lang-select button {
+      padding: 0.5rem 1rem;
+      margin-right: 0.5rem;
+      border: 1px solid #ddd;
+      background: white;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .lang-select button.active {
+      background: #0070f3;
+      color: white;
+      border-color: #0070f3;
+    }
+    .card {
+      border: 1px solid #eee;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    .card h3 { color: #0070f3; margin-bottom: 0.5rem; }
+    nav { display: flex; gap: 1rem; margin-bottom: 2rem; }
+    nav a { color: #666; text-decoration: none; }
+    .hero { text-align: center; padding: 3rem 0; background: #f5f5f5; margin-bottom: 2rem; }
+    .hero h1 { font-size: 2.5rem; }
+    .hero p { color: #666; margin: 1rem 0; }
+    .hero button {
+      padding: 1rem 2rem;
+      background: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="lang-select">
+    <strong>Language:</strong>
+    <button onclick="setLang('en')" id="btn-en" class="active">English</button>
+    <button onclick="setLang('es')" id="btn-es">Español</button>
+    <button onclick="setLang('fr')" id="btn-fr">Français</button>
+    <button onclick="setLang('de')" id="btn-de">Deutsch</button>
+  </div>
+
+  <nav>
+    <a href="#" id="nav-home">Home</a>
+    <a href="#" id="nav-about">About</a>
+    <a href="#" id="nav-pricing">Pricing</a>
+    <a href="#" id="nav-docs">Documentation</a>
+  </nav>
+</div>
+
+<div class="hero">
+  <h1 id="hero-title">Build something amazing</h1>
+  <p id="hero-subtitle">The fastest way to ship your product to users worldwide.</p>
+  <button id="hero-cta">Get started for free</button>
+</div>
+
+<div class="container">
+  <h2 id="features-title">Why choose us?</h2>
+
+  <div class="card">
+    <h3 id="feature-speed-title">Lightning fast</h3>
+    <p id="feature-speed-desc">Deploy in seconds, not hours.</p>
+  </div>
+
+  <div class="card">
+    <h3 id="feature-secure-title">Secure by default</h3>
+    <p id="feature-secure-desc">Enterprise-grade security out of the box.</p>
+  </div>
+
+  <div class="card">
+    <h3 id="feature-scalable-title">Infinitely scalable</h3>
+    <p id="feature-scalable-desc">From prototype to production, we grow with you.</p>
+  </div>
+</div>
+
+<script>
+  let translations = { common: {}, home: {} };
+  let currentLang = 'en';
+
+  async function loadTranslations(lang) {
+    try {
+      const [common, home] = await Promise.all([
+        fetch(`../locales/${lang}/common.json`).then(r => r.ok ? r.json() : null),
+        fetch(`../locales/${lang}/home.json`).then(r => r.ok ? r.json() : null)
+      ]);
+
+      // Fall back to English if translation doesn't exist
+      if (!common || !home) {
+        if (lang !== 'en') {
+          console.log(`${lang} not found, falling back to English`);
+          return loadTranslations('en');
+        }
+      }
+
+      translations = { common, home };
+      updateUI();
+    } catch (e) {
+      console.error('Failed to load translations:', e);
+    }
+  }
+
+  function updateUI() {
+    const { common, home } = translations;
+
+    // Nav
+    document.getElementById('nav-home').textContent = common?.nav?.home || 'Home';
+    document.getElementById('nav-about').textContent = common?.nav?.about || 'About';
+    document.getElementById('nav-pricing').textContent = common?.nav?.pricing || 'Pricing';
+    document.getElementById('nav-docs').textContent = common?.nav?.docs || 'Documentation';
+
+    // Hero
+    document.getElementById('hero-title').textContent = home?.hero?.title || '';
+    document.getElementById('hero-subtitle').textContent = home?.hero?.subtitle || '';
+    document.getElementById('hero-cta').textContent = home?.hero?.cta || '';
+
+    // Features
+    document.getElementById('features-title').textContent = home?.features?.title || '';
+    document.getElementById('feature-speed-title').textContent = home?.features?.speed?.title || '';
+    document.getElementById('feature-speed-desc').textContent = home?.features?.speed?.description || '';
+    document.getElementById('feature-secure-title').textContent = home?.features?.secure?.title || '';
+    document.getElementById('feature-secure-desc').textContent = home?.features?.secure?.description || '';
+    document.getElementById('feature-scalable-title').textContent = home?.features?.scalable?.title || '';
+    document.getElementById('feature-scalable-desc').textContent = home?.features?.scalable?.description || '';
+  }
+
+  function setLang(lang) {
+    currentLang = lang;
+    document.querySelectorAll('.lang-select button').forEach(b => b.classList.remove('active'));
+    document.getElementById(`btn-${lang}`).classList.add('active');
+    loadTranslations(lang);
+  }
+
+  // Initial load
+  loadTranslations('en');
+</script>
+
+</body>
+</html>

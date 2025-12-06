@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Build something amazing",
+    "subtitle": "The fastest way to ship your product to users worldwide.",
+    "cta": "Get started for free"
+  },
+  "features": {
+    "title": "Why choose us?",
+    "speed": {
+      "title": "Lightning fast",
+      "description": "Deploy in seconds, not hours."
+    },
+    "secure": {
+      "title": "Secure by default",
+      "description": "Enterprise-grade security out of the box."
+    },
+    "scalable": {
+      "title": "Infinitely scalable",
+      "description": "From prototype to production, we grow with you."
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Join thousands of developers shipping faster.",
+    "button": "Start free trial"
+  }
+}
