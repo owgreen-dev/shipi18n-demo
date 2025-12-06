@@ -18,6 +18,7 @@
     "delete": "Löschen",
     "edit": "Bearbeiten",
     "submit": "Einreichen",
-    "loading": "Laden..."
+    "loading": "Laden...",
+    "retry": "Versuchen Sie es erneut"
   }
 }

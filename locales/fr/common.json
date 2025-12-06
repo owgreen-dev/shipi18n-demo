@@ -18,6 +18,7 @@
     "delete": "Supprimer",
     "edit": "Modifier",
     "submit": "Soumettre",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "retry": "Essayer à nouveau"
   }
 }
