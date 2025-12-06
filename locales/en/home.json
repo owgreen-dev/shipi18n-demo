@@ -30,5 +30,13 @@
     "quote2": "Set it up once and forgot about it. Magic.",
     "author1": "Sarah, Lead Engineer",
     "author2": "Mike, Solo Developer"
+  },
+    "footer": {
+      "links": {
+        "home": "Home",
+        "features2": "Features",
+        "pricing": "Pricing",
+        "contact": "Contact Us"
+      }
   }
 }
