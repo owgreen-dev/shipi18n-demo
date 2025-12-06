@@ -23,5 +23,12 @@
     "title": "Ready to get started?",
     "subtitle": "Join thousands of developers shipping faster.",
     "button": "Start free trial"
+  },
+  "testimonials": {
+    "title": "What developers are saying",
+    "quote1": "This saved us hours of manual translation work!",
+    "quote2": "Set it up once and forgot about it. Magic.",
+    "author1": "Sarah, Lead Engineer",
+    "author2": "Mike, Solo Developer"
   }
 }
