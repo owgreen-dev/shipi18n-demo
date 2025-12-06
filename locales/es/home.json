@@ -30,5 +30,10 @@
     "quote2": "Lo instalé una vez y me olvidé de él. Mágico.",
     "author1": "Sarah, ingeniera principal",
     "author2": "Mike, desarrollador en solitario"
+  },
+  "footer": {
+    "links": {
+      "privacy": "política de privacidad"
+    }
   }
 }

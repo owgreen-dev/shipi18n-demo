@@ -30,5 +30,10 @@
     "quote2": "Einmal eingerichtet und dann vergessen. Magisch.",
     "author1": "Sarah, leitende Ingenieurin",
     "author2": "Mike, Einzelentwickler"
+  },
+  "footer": {
+    "links": {
+      "privacy": "Datenschutzrichtlinie"
+    }
   }
 }

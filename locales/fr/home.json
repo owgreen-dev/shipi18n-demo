@@ -30,5 +30,10 @@
     "quote2": "Il suffit de le configurer une fois et de l'oublier. Magique.",
     "author1": "Sarah, ingénieure principale",
     "author2": "Mike, développeur solo"
+  },
+  "footer": {
+    "links": {
+      "privacy": "politique de confidentialité"
+    }
   }
 }
