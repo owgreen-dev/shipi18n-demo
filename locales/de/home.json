@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Erschaffe etwas Großartiges!",
+    "subtitle": "Der schnellste Weg, Ihr Produkt an Nutzer weltweit zu versenden.",
+    "cta": "Jetzt kostenlos loslegen"
+  },
+  "features": {
+    "title": "Warum sollten Sie sich für uns entscheiden?",
+    "speed": {
+      "title": "Blitzschnell",
+      "description": "Bereitstellung in Sekunden, nicht in Stunden."
+    },
+    "secure": {
+      "title": "Standardmäßig sicher",
+      "description": "Sicherheit auf Unternehmensniveau – sofort einsatzbereit."
+    },
+    "scalable": {
+      "title": "Unendlich skalierbar",
+      "description": "Vom Prototyp bis zur Serienproduktion – wir wachsen mit Ihnen."
+    }
+  },
+  "cta": {
+    "title": "Bereit loszulegen?",
+    "subtitle": "Schließen Sie sich Tausenden von Entwicklern an, die ihre Produkte schneller auf den Markt bringen.",
+    "button": "Kostenlose Testversion starten"
+  }
+}

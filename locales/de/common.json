@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Heim",
+    "about": "Um",
+    "pricing": "Preisgestaltung",
+    "docs": "Dokumentation",
+    "login": "Einloggen",
+    "signup": "Melden Sie sich an"
+  },
+  "footer": {
+    "copyright": "© {{year}} Acme Inc. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Stornieren",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "submit": "Einreichen"
+  }
+}

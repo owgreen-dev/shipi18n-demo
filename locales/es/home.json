@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Construye algo asombroso",
+    "subtitle": "La forma más rápida de enviar su producto a usuarios de todo el mundo.",
+    "cta": "Empieza gratis"
+  },
+  "features": {
+    "title": "¿Por qué elegirnos?",
+    "speed": {
+      "title": "Rápido como un rayo",
+      "description": "Implemente en segundos, no en horas."
+    },
+    "secure": {
+      "title": "Seguro por defecto",
+      "description": "Seguridad de nivel empresarial lista para usar."
+    },
+    "scalable": {
+      "title": "Infinitamente escalable",
+      "description": "Desde el prototipo hasta la producción, crecemos contigo."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para comenzar?",
+    "subtitle": "Únase a miles de desarrolladores que realizan envíos más rápido.",
+    "button": "Comience una prueba gratuita"
+  }
+}
