@@ -23,5 +23,12 @@
     "title": "Prêt à commencer ?",
     "subtitle": "Rejoignez des milliers de développeurs qui livrent plus rapidement.",
     "button": "Essai gratuit"
+  },
+  "testimonials": {
+    "title": "Ce que disent les développeurs",
+    "quote1": "Cela nous a permis d'économiser des heures de travail de traduction manuelle !",
+    "quote2": "Il suffit de le configurer une fois et de l'oublier. Magique.",
+    "author1": "Sarah, ingénieure principale",
+    "author2": "Mike, développeur solo"
   }
 }

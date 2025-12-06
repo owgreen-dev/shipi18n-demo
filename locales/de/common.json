@@ -17,6 +17,7 @@
     "cancel": "Stornieren",
     "delete": "Löschen",
     "edit": "Bearbeiten",
-    "submit": "Einreichen"
+    "submit": "Einreichen",
+    "loading": "Laden..."
   }
 }

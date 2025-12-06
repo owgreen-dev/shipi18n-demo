@@ -17,6 +17,7 @@
     "cancel": "Annuler",
     "delete": "Supprimer",
     "edit": "Modifier",
-    "submit": "Soumettre"
+    "submit": "Soumettre",
+    "loading": "Chargement..."
   }
 }

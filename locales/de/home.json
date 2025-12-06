@@ -23,5 +23,12 @@
     "title": "Bereit loszulegen?",
     "subtitle": "Schließen Sie sich Tausenden von Entwicklern an, die ihre Produkte schneller auf den Markt bringen.",
     "button": "Kostenlose Testversion starten"
+  },
+  "testimonials": {
+    "title": "Was Entwickler sagen",
+    "quote1": "Das hat uns stundenlange manuelle Übersetzungsarbeit erspart!",
+    "quote2": "Einmal eingerichtet und dann vergessen. Magisch.",
+    "author1": "Sarah, leitende Ingenieurin",
+    "author2": "Mike, Einzelentwickler"
   }
 }

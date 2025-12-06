@@ -23,5 +23,12 @@
     "title": "¿Listo para comenzar?",
     "subtitle": "Únase a miles de desarrolladores que realizan envíos más rápido.",
     "button": "Comience una prueba gratuita"
+  },
+  "testimonials": {
+    "title": "Lo que dicen los desarrolladores",
+    "quote1": "¡Esto nos ahorró horas de trabajo de traducción manual!",
+    "quote2": "Lo instalé una vez y me olvidé de él. Mágico.",
+    "author1": "Sarah, ingeniera principal",
+    "author2": "Mike, desarrollador en solitario"
   }
 }
