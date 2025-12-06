@@ -26,6 +26,9 @@
   "messages": {
     "welcome": "Welcome back, {{name}}!",
     "itemCount": "You have {count} items in your cart."
+  },
+  "sync": {
+    "status": "Sync Dashboard Active"
   }
 }
 

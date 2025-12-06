@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'locales/en/**'
+  workflow_dispatch:  # Allow manual triggering
 
 jobs:
   translate:
