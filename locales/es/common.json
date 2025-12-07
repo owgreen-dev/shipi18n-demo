@@ -32,5 +32,8 @@
   },
   "webhook": {
     "success": "Prueba de webhook exitosa"
+  },
+  "notification": {
+    "emailTest": "Prueba de notificación por correo electrónico"
   }
 }
