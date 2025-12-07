@@ -29,5 +29,8 @@
   },
   "sync": {
     "status": "Tableau de bord de synchronisation actif"
+  },
+  "webhook": {
+    "success": "Test du webhook réussi"
   }
 }

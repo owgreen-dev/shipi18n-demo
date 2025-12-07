@@ -29,5 +29,8 @@
   },
   "sync": {
     "status": "Panel de sincronización activo"
+  },
+  "webhook": {
+    "success": "Prueba de webhook exitosa"
   }
 }
