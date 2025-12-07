@@ -31,9 +31,11 @@
     "status": "Dashboard synchronisieren"
   },
   "webhook": {
-    "success": "Webhook-Test erfolgreich"
+    "success": "Webhook-Test erfolgreich",
+    "failure": "Webhook-Test fehlgeschlagen"
   },
   "notification": {
-    "emailTest": "E-Mail-Benachrichtigung testen"
+    "emailTest": "E-Mail-Benachrichtigung testen",
+    "smsTest": "Testen der SMS-Benachrichtigung"
   }
 }
