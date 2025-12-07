@@ -48,9 +48,22 @@
       font-size: 1rem;
       cursor: pointer;
     }
+    .banner {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 0.75rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .banner a { color: white; font-weight: bold; }
   </style>
 </head>
 <body>
+
+<div class="banner">
+  This demo is powered by <a href="https://shipi18n.com">Shipi18n</a> - Autonomous localization for developers.
+  <a href="https://github.com/Shipi18n/shipi18n-demo">Fork this repo</a> to try it yourself!
+</div>
 
 <div class="container">
   <div class="lang-select">
@@ -101,8 +114,8 @@
   async function loadTranslations(lang) {
     try {
       const [common, home] = await Promise.all([
-        fetch(`../locales/${lang}/common.json`).then(r => r.ok ? r.json() : null),
-        fetch(`../locales/${lang}/home.json`).then(r => r.ok ? r.json() : null)
+        fetch(`./locales/${lang}/common.json`).then(r => r.ok ? r.json() : null),
+        fetch(`./locales/${lang}/home.json`).then(r => r.ok ? r.json() : null)
       ]);
 
       // Fall back to English if translation doesn't exist

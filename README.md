@@ -53,20 +53,27 @@ When you pushed a change to `locales/en/`, the GitHub Action:
 
 ## See the demo
 
-Open `src/index.html` in your browser to see the translations in action. Click the language buttons to switch.
+**Live demo:** [https://shipi18n.github.io/shipi18n-demo/](https://shipi18n.github.io/shipi18n-demo/)
+
+Or open `index.html` locally in your browser to see the translations in action. Click the language buttons to switch.
 
 ---
 
 ## Project structure
 
 ```
-locales/
-├── en/           # You edit these (source of truth)
-│   ├── common.json
-│   └── home.json
-├── es/           # Auto-generated
-├── fr/           # Auto-generated
-└── de/           # Auto-generated
+shipi18n-demo/
+├── index.html        # Demo page with language switcher
+├── locales/
+│   ├── en/           # You edit these (source of truth)
+│   │   ├── common.json
+│   │   └── home.json
+│   ├── es/           # Auto-generated
+│   ├── fr/           # Auto-generated
+│   └── de/           # Auto-generated
+└── .github/
+    └── workflows/
+        └── translate.yml  # GitHub Action config
 ```
 
 ---
