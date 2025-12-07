@@ -35,7 +35,8 @@
   "placeholders": {
     "search": "Search...",
     "email": "Enter your email",
-    "password": "Enter your password"
+    "password": "Enter your password",
+    "username": "Enter your username"
   }
 }
 
