@@ -24,5 +24,8 @@
   "messages": {
     "welcome": "Bienvenue à nouveau, {{name}} !",
     "itemCount": "Vous avez {count} articles dans votre panier."
+  },
+  "placeholders": {
+    "username": "Saisissez votre nom d'utilisateur"
   }
 }
