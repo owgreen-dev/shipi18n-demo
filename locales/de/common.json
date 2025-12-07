@@ -19,10 +19,15 @@
     "edit": "Bearbeiten",
     "submit": "Einreichen",
     "loading": "Laden...",
-    "retry": "Versuchen Sie es erneut"
+    "retry": "Versuchen Sie es erneut",
+    "confirm": "Bist du sicher?",
+    "success": "Operation erfolgreich abgeschlossen"
   },
   "messages": {
     "welcome": "Willkommen zurück, {{name}}!",
     "itemCount": "Sie haben {count} Artikel in Ihrem Warenkorb."
+  },
+  "sync": {
+    "status": "Dashboard synchronisieren"
   }
 }
