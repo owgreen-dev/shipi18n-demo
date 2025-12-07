@@ -24,5 +24,8 @@
   "messages": {
     "welcome": "Willkommen zurück, {{name}}!",
     "itemCount": "Sie haben {count} Artikel in Ihrem Warenkorb."
+  },
+  "placeholders": {
+    "comment": "Schreiben Sie einen Kommentar..."
   }
 }
