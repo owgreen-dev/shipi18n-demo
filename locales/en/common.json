@@ -37,7 +37,8 @@
     "email": "Enter your email",
     "password": "Enter your password",
     "username": "Enter your username",
-    "message": "Type your message here..."
+    "message": "Type your message here...",
+    "comment": "Write a comment..."
   }
 }
 
