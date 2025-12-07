@@ -29,5 +29,8 @@
   },
   "sync": {
     "status": "Dashboard synchronisieren"
+  },
+  "webhook": {
+    "test": "Webhook-Testnachricht"
   }
 }
