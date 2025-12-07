@@ -24,5 +24,10 @@
   "messages": {
     "welcome": "Bienvenue à nouveau, {{name}} !",
     "itemCount": "Vous avez {count} articles dans votre panier."
+  },
+  "placeholders": {
+    "search": "Recherche...",
+    "email": "Saisissez votre adresse e-mail",
+    "password": "Saisissez votre mot de passe"
   }
 }
