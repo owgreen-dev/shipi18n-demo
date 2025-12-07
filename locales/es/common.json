@@ -31,9 +31,11 @@
     "status": "Panel de sincronización activo"
   },
   "webhook": {
-    "success": "Prueba de webhook exitosa"
+    "success": "Prueba de webhook exitosa",
+    "failure": "La prueba del webhook falló"
   },
   "notification": {
-    "emailTest": "Prueba de notificación por correo electrónico"
+    "emailTest": "Prueba de notificación por correo electrónico",
+    "smsTest": "Prueba de notificación por SMS"
   }
 }

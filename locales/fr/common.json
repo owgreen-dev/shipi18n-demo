@@ -31,9 +31,11 @@
     "status": "Tableau de bord de synchronisation actif"
   },
   "webhook": {
-    "success": "Test du webhook réussi"
+    "success": "Test du webhook réussi",
+    "failure": "Le test du webhook a échoué"
   },
   "notification": {
-    "emailTest": "Notification par e-mail de test"
+    "emailTest": "Notification par e-mail de test",
+    "smsTest": "Test de notification SMS"
   }
 }
