@@ -31,6 +31,11 @@
     "network": "Network error. Please check your connection.",
     "404": "Page not found.",
     "500": "Internal server error. Please try again later."
+  },
+  "placeholders": {
+    "search": "Search...",
+    "email": "Enter your email",
+    "password": "Enter your password"
   }
 }
 
