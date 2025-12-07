@@ -24,5 +24,16 @@
   "messages": {
     "welcome": "Willkommen zurück, {{name}}!",
     "itemCount": "Sie haben {count} Artikel in Ihrem Warenkorb."
+  },
+  "errors": {
+    "404": "Seite nicht gefunden.",
+    "500": "Interner Serverfehler. Bitte versuchen Sie es später erneut.",
+    "network": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung."
+  },
+  "placeholders": {
+    "search": "Suchen...",
+    "email": "Geben Sie Ihre E-Mail-Adresse ein",
+    "password": "Geben Sie Ihr Passwort ein",
+    "username": "Geben Sie Ihren Benutzernamen ein"
   }
 }

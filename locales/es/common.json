@@ -24,5 +24,16 @@
   "messages": {
     "welcome": "¡Bienvenido de nuevo, {{name}}!",
     "itemCount": "Tienes {count} artículos en tu carrito."
+  },
+  "errors": {
+    "404": "Página no encontrada.",
+    "500": "Error interno del servidor. Inténtalo de nuevo más tarde.",
+    "network": "Error de red. Por favor, revise su conexión."
+  },
+  "placeholders": {
+    "search": "Buscar...",
+    "email": "Introduce tu correo electrónico",
+    "password": "Introduce tu contraseña",
+    "username": "Introduce tu nombre de usuario"
   }
 }
