@@ -10,7 +10,7 @@
   "footer": {
     "copyright": "© {{year}} Acme Inc. Todos los derechos reservados.",
     "privacy": "política de privacidad",
-    "terms": "Condiciones del servicio"
+    "terms": "Condiciones de servicio"
   },
   "actions": {
     "save": "Ahorrar",
@@ -19,10 +19,15 @@
     "edit": "Editar",
     "submit": "Entregar",
     "loading": "Cargando...",
-    "retry": "Intentar otra vez"
+    "retry": "Intentar otra vez",
+    "confirm": "¿Está seguro?",
+    "success": "Operación completada con éxito"
   },
   "messages": {
     "welcome": "¡Bienvenido de nuevo, {{name}}!",
     "itemCount": "Tienes {count} artículos en tu carrito."
+  },
+  "sync": {
+    "status": "Panel de sincronización activo"
   }
 }

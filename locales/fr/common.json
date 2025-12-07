@@ -19,10 +19,15 @@
     "edit": "Modifier",
     "submit": "Soumettre",
     "loading": "Chargement...",
-    "retry": "Essayer à nouveau"
+    "retry": "Essayer à nouveau",
+    "confirm": "Es-tu sûr?",
+    "success": "Opération réussie"
   },
   "messages": {
     "welcome": "Bienvenue à nouveau, {{name}} !",
     "itemCount": "Vous avez {count} articles dans votre panier."
+  },
+  "sync": {
+    "status": "Tableau de bord de synchronisation actif"
   }
 }
