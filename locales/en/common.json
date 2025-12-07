@@ -32,10 +32,12 @@
   },
   "webhook": {
     "test": "Webhook test message",
-    "success": "Webhook test successful"
+    "success": "Webhook test successful",
+    "failure": "Webhook test failed"
   },
   "notification": {
-    "emailTest": "Testing email notification"
+    "emailTest": "Testing email notification",
+    "smsTest": "Testing SMS notification"
   }
 }
 
